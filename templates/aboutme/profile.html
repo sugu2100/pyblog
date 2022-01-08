@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<section class="profile">
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-8">
+        <h3>긍정 에너지 <em>Software Engineer</em> 김기용입니다.</h3>
+            <div class="card my-4" style="max-width: 600px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="{% static 'aboutme/images/giyong0.jpg' %}"
+                       class="img-fluid rounded-start" alt="증명사진">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">profile</h5>
+                    <p class="card-text">
+                        - 사는 곳 : 서울시 은평구 불광동<br>
+                        - 하는 일 : 파이썬, 자바 기반 웹 프로그래밍 강의
+                    </p>
+                    <p class="card-text">
+                        <small>깃허브 | https://github.com/sugu2100</small><br>
+                        <small>Blog | https://blog.naver.com/sugu2000kr</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        <h4 class="mt-4">Career</h4>
+        <hr>
+        <ul>
+            <li>에듀윌 국비 교육원(부평센터) : 파이썬 기반 WEB 개발자 양성 강의</li>
+            <li>메가패스 더조은 컴퓨터(노원캠퍼스) : 프로그래밍 입문 강의</li>
+            <li>JMP 코리아(직업 전문 학교) : 자바 WEB 실무 일본 취업 강의</li>
+            <li>전자 정부 프레임워크 실무 과정 수료</li>
+            <li>예일 여고 아두이노 동아리 지도교사</li>
+        </ul>
+        <h4 class="mt-4">Skills</h4>
+        <hr>
+        <ul>
+            <li>Backend | Python, Java</li>
+            <li>Front | HTML, CSS, JavaScript</li>
+            <li>FrameWork | Dajngo, Spring</li>
+            <li>SQL | Sqlite3, Oracl</li>
+            <li>IOT | 아두이노, 라즈베리파이</li>
+        </ul>
+        </div>
+    </div>
+</div>
+</section>
+{% endblock %}
